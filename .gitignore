@@ -36,3 +36,9 @@ yarn-error.log*
 # Environment configuration files
 .env
 .env.production
+
+firebase-debug.log*
+firebase-debug.*.log*
+
+# Firebase cache
+.firebase/
