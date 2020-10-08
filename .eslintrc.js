@@ -67,6 +67,14 @@ module.exports = {
 
 
     // allow debugger during development only
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+
+    // My rules:
+    "space-before-function-paren": ["error", {
+      "anonymous": "always",
+      "named": "ignore",
+      "asyncArrow": "always"
+    }],
+    "comma-dangle": ["error", "only-multiline"],
   }
 }
