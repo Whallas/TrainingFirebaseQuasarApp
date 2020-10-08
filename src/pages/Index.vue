@@ -1,14 +1,14 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-full.svg"
-    >
-  </q-page>
+  <tasks />
 </template>
 
 <script>
+import Tasks from './Tasks.vue'
+
 export default {
-  name: 'PageIndex'
+  name: 'PageIndex',
+  components: {
+    Tasks,
+  },
 }
 </script>
