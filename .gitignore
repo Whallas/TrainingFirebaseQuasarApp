@@ -32,3 +32,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 .vscode
+
+# Environment configuration files
+.env
+.env.production
